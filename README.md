@@ -1,3 +1,8 @@
+Live project link : https://react-redux-calculator147.herokuapp.com/
+
+![image](https://user-images.githubusercontent.com/18021576/75608224-d72b1b00-5b27-11ea-92ab-5b30225cc5eb.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

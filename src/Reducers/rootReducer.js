@@ -5,7 +5,7 @@ function reducer(state = {expression:'0'}, action)
     switch(action.type)
     {
         case KEYPRESS:
-            var expression = state.expression + action.value;
+            var expression = (state.expression === '0')?  action.value : state.expression + action.value;
             return {expression};
         case ADD_NUMBER:
             expression = checkOperator(state.expression) + '+';
